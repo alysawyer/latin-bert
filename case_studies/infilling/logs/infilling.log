@@ -1,4 +1,4 @@
-2020-09-06 02:01:32.773067: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2023-12-01 09:12:08.798503: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
 Some weights of the model checkpoint at ../../models/latin_bert/ were not used when initializing BertForMaskedLM: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
 - This IS expected if you are initializing BertForMaskedLM from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
 - This IS NOT expected if you are initializing BertForMaskedLM from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
@@ -3155,7 +3155,7 @@ PRED	reliqui habere se videntur angustius , enatant tamen , epicurus hieronymus 
 	ne	0.002
 	facile	0.002
 PRED	vinearum autem fere genera in usu tria sunt , iugata , humi proiecta et deindetertia ,	->	id	quae	<-	est a poenis usurpata , more arborum in se consistens .
-	id	0.305
+	id	0.304
 	tertia	0.214
 	hoc	0.128
 	quarta	0.062
@@ -4409,7 +4409,7 @@ PRED	[ 41 ] augusta vero in desertas quasdam syriae solitudines relegata patrem 
 	ludos	0.003
 	sensus	0.003
 PRED	2 itaque	->	,	diocletianus	<-	cum videret vivus quod nulli um quam imperatorum acciderat , duplici aegritudi -ne adfectus moriendum sibi esse decrevit .
-	,	0.827
+	,	0.826
 	ille	0.024
 	alexander	0.012
 	is	0.011
@@ -7828,7 +7828,7 @@ PRED	si aequom facias , adventores meos	->	ne	non	<-	incuses , quorum mihi dona 
 	ut	0.003
 	potius	0.003
 PRED	625 iam ego te hic offatim conficiam ,	->	nisi	sic	<-	occidi te optumum est .
-	nisi	0.369
+	nisi	0.368
 	nam	0.168
 	iam	0.056
 	atque	0.046
@@ -8827,16 +8827,16 @@ PRED	fit etiam ex duobus , quorum necesse est	->	esse	esse	<-	alterum uerum , el
 	efficere	0.002
 	ad	0.002
 PRED	itaque non dubito haec quoque	->	esse	uocare	<-	consequentia , quamuis ex prioribus dent argumentum ad ea quae secuntur , quorum duas quidam species esse uoluerunt , actionis ( ut pro oppio : 'quos educere inuitos in prouinciam non potuit , eos inuitos retinere qui potuit ? ' ) , temporis , in verrem : 'si finem praetoris edicto adferunt kalendae ian. , cur non initium quoque edicti nascatur a kalendis ian. ?' lxxvii .
-	esse	0.847
-	dici	0.050
-	videri	0.011
-	reddi	0.009
+	esse	0.852
+	dici	0.049
+	videri	0.010
+	reddi	0.008
 	fieri	0.008
 	defendi	0.006
 	dicere	0.004
 	fuisse	0.004
-	ostendi	0.003
 	appellari	0.003
+	ostendi	0.003
 PRED	siue illum ira , quo non debebit , inpellet , siue ambitionis calor abducet a tutis , in nullum malum uires a	->	me	me	<-	sumere ipsas patiar nec conmittam , ut possit quandoque dicere : 'ille amando me occidit.' saepe nihil interest inter amicorum munera et hostium uota ; quidquid illi accidere optant , in id horum intempestiua indulgentia inpellit atque instruit .
 	me	0.863
 	te	0.037
@@ -10493,7 +10493,7 @@ PRED	6 et cum aliud facere nihil posset , evitandi periculi gratia , quod ( a ) 
 	imperii	0.007
 PRED	6 post hoc carthaginem ventum cum pompa regali et fascibus laureatis , filius -que legatus patris , exemplo scipionum , ut dexippus graecae historiae	->	scriptor	scriptor	<-	auctor est , pari potestate succinctus est .
 	scriptor	0.688
-	auctor	0.082
+	auctor	0.081
 	peritus	0.039
 	primus	0.029
 	diligens	0.017
@@ -12878,7 +12878,7 @@ PRED	cum autem incipit a	->	latere	femoribus	<-	sagittarii , quae pars est attri
 	regione	0.009
 	medio	0.007
 Precision @ 1: 0.331 10: 0.622 50: 0.741, n: 1160
-scripts/predict_word.py:283: RuntimeWarning: invalid value encountered in double_scalars
+scripts/predict_word.py:216: RuntimeWarning: invalid value encountered in double_scalars
   print("%s\t%.3f\t%.3f\t%.3f\t%s" % (i, p1s[i]/ns[i], p10s[i]/ns[i], p50s[i]/ns[i], ns[i]))
 PRED	idem -que athenis quam magnae sunt gnomonis partes quattuor , umbrae sunt tres , ad vii rhodo v , ad xi tarenti ix , ad quinque	->	,	alexandriae	<-	ceteris -que omnibus locis aliae alio modo umbrae gnomonum aequinoctiales a natura rerum inveniuntur disparatae .
 	,	0.485
